@@ -2,11 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 html, body{
     background-color: black;
-    background-image: url('banner.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden
+
 }
 #container {
     display: flex;
@@ -16,6 +12,12 @@ html, body{
     height: 100vh;
     position: relative;
     color: black;
+
+    background-image: url('banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden
 }
 
 #banners {
